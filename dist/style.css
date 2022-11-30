@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+    hei
+}
