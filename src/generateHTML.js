@@ -1,3 +1,5 @@
+const fs =require('fs')
+
 function generateHTML(data){
     var head = `<!DOCTYPE html>
     <html lang="en">
@@ -52,7 +54,7 @@ function generateHTML(data){
         
 
     });
-    FileSystem.writeFile('./dis/team.html', html+closing, (err) => {
+    fs.writeFile('./dist/team.html', html+closing, (err) => {
         if (err) {
             console.log(err)
         }

@@ -1,7 +1,6 @@
 const inqurier = require('inquirer')
 const fs = require('fs')
 const util = require('util')
-const employee = require('./lib/employee')
 const Engineer = require('./lib/engineer')
 const Intern = require('./lib/intern')
 const Manager = require('./lib/manager')
@@ -59,7 +58,7 @@ const teamPrompt = [{
         return answers.memberSelect && answers.memberSelect.includes(validate)
     }
 }, {
-    type: 'cofirm',
+    type: 'confirm',
     name: 'addMore',
     message: 'would you like to add another team member?'
     
