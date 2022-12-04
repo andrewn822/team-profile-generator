@@ -1,4 +1,4 @@
-const fs =require('fs')
+const fs = require('fs')
 
 function generateHTML(data){
     var head = `<!DOCTYPE html>
